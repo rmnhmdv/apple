@@ -1,0 +1,518 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+@font-face{
+	font-family: "Helvetica";
+	src: url(helvetica_regular.otf);
+}
+html, body{
+	font-family: "Helvetica";
+}
+header{
+	background: #444444;
+}
+.header{
+	display: none;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 12px 10px;
+	
+}
+.header p{
+	color: #ffffff;
+	font-size: 13px;
+	font-weight: normal;
+}
+nav{
+	background: rgba(0, 0, 0, 0.8);
+}
+.navbar{
+	display: flex;
+	justify-content: center;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.8);
+}
+.navbar img{
+	width: 20px;
+}
+.navbar img:hover{
+	color: white;
+}
+.navbar ul{
+	display: flex;
+    text-align: center;
+}
+.navbar ul li{
+	display: inline-block;
+	list-style: none;
+	padding: 11px 30px;
+}
+.navbar ul li a{
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: normal;
+	color: #f5f5f7;
+	opacity: .8;
+}
+.section-a{
+	background-color: #fbfbfd;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+   justify-content: space-between;
+	align-items: center;
+	margin-bottom: 15px;
+}
+.section-a img{
+	margin-right: 55%;
+	margin-top: 10%;
+}
+.macbook-air{
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto;
+    text-align: center;
+    margin-left: 40%;
+}
+.macbook-air h2{
+	font-size: 55px;
+	opacity: .9;
+	margin-bottom: 10px;
+	font-weight: bolder;
+}
+.macbook-air h3{
+    font-size: 29px;
+    opacity: .8;
+    margin-bottom: 10px;
+    font-weight: 200;
+}
+.macbook-air p{
+   font-size: 21px;
+   opacity: .5; 
+   margin-bottom: 10px;
+}
+.macbook-air a{
+   font-size: 20px;
+   text-decoration: none;
+}
+.macbook-air a:hover{
+	border-bottom: 1px solid blue;
+}
+.section-b{
+	background-color: #fbfbfd;
+	display: grid;
+	justify-self: center;
+	text-align: center;
+}
+.section-b img{
+	width: 100%;
+	padding-top: 20px;
+}
+.iphone13{
+	padding-top: 50px;
+}
+.iphone13 h2{
+	font-size: 55px;
+	font-weight: 900;
+	padding-bottom: 8px;
+
+}
+.iphone13 h3{
+   font-size: 25px;
+   font-weight: normal;
+   padding-bottom: 10px;
+   opacity: 0.8;
+}
+.iphone13 a{
+   font-size: 20px;
+   text-decoration: none;
+}
+.iphone13 a:hover{
+	border-bottom: 1px solid blue;
+}
+.section-c{
+	background-color: #fbfbfd;
+	display: grid;
+	justify-self: center;
+	text-align: center;
+}
+.section-c img{
+	width: 100%;
+	padding-top: 20px;
+	margin-bottom: 10px;
+}
+.iphone13pro{
+	padding-top: 50px;
+}
+.iphone13pro h2{
+	font-size: 55px;
+	font-weight: 900;
+	padding-bottom: 8px;
+
+}
+.iphone13pro h3{
+   font-size: 25px;
+   font-weight: normal;
+   padding-bottom: 10px;
+   opacity: 0.8;
+}
+.iphone13pro a{
+   font-size: 20px;
+   text-decoration: none;
+}
+.iphone13pro a:hover{
+	border-bottom: 1px solid blue;
+}
+.section-d{
+  margin-bottom: 10px;
+}
+.produtcs{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 0.9rem;
+}
+.product1{
+   background:black;
+	justify-content: center;
+	text-align: center;
+	width: 670px;
+	height: 600px;
+}
+.product1 img{
+	width: 500px;
+	height: 300px;
+	margin-top: 70px;
+}
+.macbook-pro{
+	padding-top: 40px;
+}
+.macbook-pro h2{
+   font-size: 40px;
+   padding-bottom: 5px;
+   color: white;
+}
+.macbook-pro h3{
+	font-weight: normal;
+	padding-bottom: 10px;
+	color: white;
+}
+.macbook-pro p{
+	padding-bottom: 10px;
+	opacity: 0.8;
+	color: white;
+}
+.macbook-pro a{
+	text-decoration: none;
+	margin-bottom: 15px;
+}
+.macbook-pro a:hover{
+	border-bottom: 1px solid blue;
+}
+.product2{
+	background-color: #fbfbfd;
+	justify-content: center;
+	text-align: center;
+	width: 670px;
+	height: 600px;
+}
+.product2 img{
+	width: 700px;
+	height: 400px;
+	margin-top: 10px;
+}
+.watch{
+	padding-top: 40px;
+}
+.watch h2{
+   font-size: 28px;
+   padding-bottom: 5px;
+  
+}
+.watch h3{
+	font-weight: normal;
+	padding-bottom: 10px;
+	font-size: 15px;
+	color: indianred;
+}
+.watch p{
+	opacity: 0.8;
+	font-size: 19px;
+	padding-bottom: 10px;
+	
+}
+.watch a{
+	text-decoration: none;
+	margin-bottom: 15px;
+	font-weight: normal;
+}
+.watch a:hover{
+	border-bottom: 1px solid blue;
+}
+.section-e{
+  margin-bottom: 10px;
+}
+.products2{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 0.9rem;
+}
+.product3{
+   background:black;
+	justify-content: center;
+	text-align: center;
+	width: 670px;
+	height: 600px;
+}
+.product3 img{
+	width: 400px;
+	height: 300px;
+	margin-top: 70px;
+}
+.ipad{
+	padding-top: 40px;
+}
+.ipad h2{
+   font-size: 40px;
+   padding-bottom: 5px;
+   color: white;
+}
+.ipad h3{
+	font-weight: normal;
+	padding-bottom: 10px;
+	color: white;
+}
+.ipad a{
+	text-decoration: none;
+	margin-bottom: 15px;
+}
+.ipad a:hover{
+	border-bottom: 1px solid blue;
+}
+.product4{
+	background-color: #fbfbfd;
+	justify-content: center;
+	text-align: center;
+	width: 670px;
+	height: 600px;
+}
+.product4 img{
+	width: 550px;
+	height: 300px;
+	margin-top: 40px;
+}
+.airpods{
+	padding-top: 40px;
+}
+.airpods h2{
+   font-size: 35px;
+   padding-bottom: 5px;
+  
+}
+.airpods h3{
+	font-weight: normal;
+	padding-bottom: 10px;
+	font-size: 20px;
+	opacity: 0.8;
+
+}
+.airpods a{
+	text-decoration: none;
+	margin-bottom: 15px;
+	font-weight: normal;
+}
+.airpods a:hover{
+	border-bottom: 1px solid blue;
+}
+.section-f{
+	margin-bottom: 10px;
+}
+.medias{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 0.9rem;
+}
+.arcade{
+   background:#fbfbfb;
+	justify-content: center;
+	text-align: center;
+	width: 670px;
+	height: 600px;
+}
+.arcade img{
+	width: 400px;
+	height: 200px;
+	margin-top: 70px;
+}
+.arcade{
+	padding-top: 40px;
+}
+.gaming h2{
+   font-size: 35px;
+   padding-bottom: 5px;
+}
+.gaming h3{
+	font-weight: normal;
+	padding-bottom: 10px;
+}
+.gaming a{
+	text-decoration: none;
+	margin-bottom: 15px;
+	padding-right: 20px;
+	font-weight: normal;
+}
+.gaming a:hover{
+	border-bottom: 1px solid blue;
+}
+.mars{
+	justify-content: center;
+	text-align: center;
+	width: 670px;
+	height: 600px;
+}
+.mars{
+	background: url('mars.jpg');
+}
+.movie{
+	padding-top: 40px;
+}
+.movie h2{
+   font-size: 55px;
+   font-weight: bolder;
+   padding-bottom: 5px;
+   color: white;
+  
+}
+.movie h3{
+	font-weight: normal;
+	padding-bottom: 280px;
+	font-size: 40px;
+	color: white;
+}
+.mars p{
+   color: goldenrod;
+   font-size: 30px;
+   padding-bottom: 10px;
+}
+.movie a{
+	text-decoration: none;
+	margin-bottom: 15px;
+	font-weight: normal;
+	color: white;
+}
+.movie a:hover{
+	border-bottom: 1px solid white;
+}
+footer{
+	background: #f5f5f7;
+}
+.footers{
+	min-width: 1200px;
+
+}
+.footer-top{
+	border-bottom: 1px solid;
+	padding-bottom: 20px;
+	color: lightgray;
+}
+.footer-top p{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: left;
+	font-size:12px;
+	font-weight: normal;
+	color: #6e6e73;
+	padding-top: 15px;
+}
+.footer-middle{
+	padding-top: 20px;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 15px;
+	margin-left: 220px;
+	padding-bottom: 40px;
+}
+.footer-middle ul{
+	list-style: none;
+}
+.footer-middle ul h6{
+	font-size: 13px;
+	font-weight: normal;
+	color: #1d1d1f;
+	padding-bottom: 10px;
+}
+.footer-middle ul li{
+	line-height: 1.5rem;
+}
+.footer-middle ul li a{
+	text-decoration: none;
+	color: #424245;
+	font-size: 12px;
+	font-weight: normal;
+	opacity: 0.8;
+}
+.footer-middle a:hover{
+	text-decoration: underline;
+	color: #424245;
+
+}
+.retail{
+	margin-left: 220px;
+	border-bottom: 1px solid;
+	color: lightgray;
+	padding-bottom: 10px;
+}
+.retail a{
+	text-decoration: none;
+	font-size: 13px;
+	font-weight: normal;
+}
+.retail a:hover{
+	text-decoration: underline;
+}
+.retail span{
+	font-size: 13px;
+	font-weight: normal;
+	color: #424245;
+	opacity: 0.8;
+}
+.footer-bottom{
+	display: flex;
+	margin-left: 220px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+.footer-bottom p{
+	font-size: 13px;
+	font-weight: normal;
+	color: #6e6e73;
+	padding-right: 25px;
+}
+.footer-bottom ul{
+	display: flex;
+	text-align: center;
+	list-style: none;
+}
+.footer-bottom ul li{
+	display: inline-flex;
+   justify-content: space-between;
+   text-align: center;
+}
+.footer-bottom ul li a{
+	text-decoration: none;
+	font-size: 13px;
+	font-weight: normal;
+	color: #6e6e73;
+	padding: 0 10px;
+}
+.footer-bottom ul.right{
+	flex: 1;
+	margin-left: 320px;
+}
+.footer-bottom ul li a:hover{
+	text-decoration: underline;
+}
